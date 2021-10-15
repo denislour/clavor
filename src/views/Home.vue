@@ -1,17 +1,11 @@
 <template>
-    <Navbar />
-    <div class="h-screen flex flex-row flex-wrap">
-        <Sidebar />
-    </div>
+    <h1>aa123</h1>
 </template>
 
 <script setup>
 import { computed, ref } from 'vue';
 import { useStore } from 'vuex';
 import { useRouter } from 'vue-router';
-
-import Navbar from '../components/Navbar.vue';
-import Sidebar from '../components/Sidebar.vue';
 
 const store = useStore();
 const router = useRouter();

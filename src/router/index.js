@@ -6,11 +6,13 @@ const routes = [
     {
         path: '/',
         name: 'Home',
+        meta: { layout: 'authenticated' },
         component: Home,
     },
     {
         path: '/about',
         name: 'About',
+        meta: { layout: 'authenticated' },
         component: About,
     },
 ];
